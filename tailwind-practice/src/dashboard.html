@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Tailwind Dashboard</title>
+  </head>
+  <body class="flex flex-col h-screen bg-gray-100"> 
+    <header class="bg-gradient-to-r from-teal-700 to-slate-800 text-white p-5 shadow-lg flex justify-between items-center">
+      <h1 class="text-xl font-semibold">Accrefin</h1>
+      <nav class="flex space-x-4">
+        <a href="#" class="text-gray-200 hover:text-white hover:bg-white hover:bg-opacity-20 px-3 py-1 rounded transition-all">Home</a>
+        <a href="#" class="text-gray-200 hover:text-white hover:bg-white hover:bg-opacity-20 px-3 py-1 rounded transition-all">About</a>
+        <a href="#" class="text-gray-200 hover:text-white hover:bg-white hover:bg-opacity-20 px-3 py-1 rounded transition-all">Contact</a>
+      </nav>
+    </header>
+
+    <div class="flex flex-1">
+      <aside class="w-64 bg-slate-900 text-white p-6">
+        <h2 class="text-lg font-bold mb-6 text-teal-400">Hi, Kishan </h2>
+        <div class="relative mb-6">
+          <input type="text" placeholder="🔍 Search Reports..." class="w-full bg-slate-800 text-sm text-gray-300 placeholder-gray-500 border-none rounded-lg py-2 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-teal-500 transition duration-200"/>
+        </div>
+        <ul class="space-y-3">
+          <li><a href="#" class="block text-gray-300 hover:text-teal-400 hover:bg-slate-800 p-2 rounded transition-all">📊 Dashboard</a></li>
+          <li><a href="#" class="block text-gray-300 hover:text-teal-400 hover:bg-slate-800 p-2 rounded transition-all">📋 Reports</a></li>
+          <li><a href="#" class="block text-gray-300 hover:text-teal-400 hover:bg-slate-800 p-2 rounded transition-all">❓ Help</a></li>
+          <li><a href="#" class="block text-gray-300 hover:text-teal-400 hover:bg-slate-800 p-2 rounded transition-all"> ⚙️ Settings </a></li>
+          <li><a href="#" class="block text-gray-300 hover:text-teal-400 hover:bg-slate-800 p-2 rounded transition-all"> 👤 Profile </a></li>
+
+        </ul>
+      </aside>
+
+      <main class="flex-1 p-8 grid grid-cols-2 gap-6 place-items-center">
+        <div class="bg-white rounded-xl shadow-lg p-6 w-96 hover:shadow-2xl hover:-translate-y-1 transition-all border border-teal-200 border-t-4 border-t-teal-500">
+          <h2 class="text-sm font-bold mb-1 uppercase tracking-wider text-gray-500">Total Revenue YTD</h2>
+          <p class="text-4xl font-extrabold text-teal-700 mb-3">$14.5M</p>
+          <p class="text-gray-600 text-base">
+            <span class="text-green-600 font-semibold">+3.5%</span> increase from last period.
+            <div class="h-10 bg-gray-100 mt-2 rounded-sm text-xs italic text-gray-500 flex items-center justify-center">
+                Here is the trend Chart
+            </div>
+          </p>
+        </div>
+        <div class="bg-white rounded-xl shadow-lg p-6 w-96 hover:shadow-2xl hover:-translate-y-1 transition-all border border-teal-200 border-t-4 border-t-teal-500">
+          <h2 class="text-sm font-bold mb-1 uppercase tracking-wider text-gray-500">Current P/E Ratio</h2>
+          <p class="text-4xl font-extrabold text-slate-700 mb-3">18.5x</p>
+          <p class="text-gray-600 text-base">
+            This is below the industry average of <span class="text-red-600 font-semibold">21.3x</span>.
+            <div class="h-10 bg-gray-100 mt-2 rounded-sm text-xs italic text-gray-500 flex items-center justify-center">
+                Here is the Chart
+            </div>
+          </p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
