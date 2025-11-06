@@ -6,17 +6,17 @@ export default function Home() {
       <h1 className="text-2xl font-semibold mb-6 text-gray-800">User Dashboard</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <UserCard
-          name="Alice"
+          name="A"
           role="Frontend Developer"
           stats={{ activeUsers: 120, revenue: 14500 }}
         />
         <UserCard
-          name="Bob"
+          name="B"
           role="Backend Developer"
           stats={{ activeUsers: 98, revenue: 10200 }}
         />
         <UserCard
-          name="Charlie"
+          name="C"
           stats={{ activeUsers: 156, revenue: 18500 }}
         />
       </div>
