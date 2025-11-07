@@ -7,6 +7,7 @@
     "./component-showcase.html",
     "./index.html",
     "./main.jsx"
+    
   ],
   // Updated safelist with all classes used in the new dashboard
   safelist: [

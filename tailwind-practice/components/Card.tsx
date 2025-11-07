@@ -19,6 +19,7 @@ export const Card: React.FC<CardProps> = ({ title, imageUrl, children }) => {
           alt={title} 
         />
       )}
+      
 
       {/* Content Area */}
       <div className="p-6">
